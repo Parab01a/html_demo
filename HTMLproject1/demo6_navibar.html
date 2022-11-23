@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DEMO6</title>
+    <base target="_blank">
+    <link rel="shortcut icon" href="images/favicon.ico">
+<!--    <style>-->
+<!--      ul-->
+<!--      {-->
+<!--          list-style-type: none;-->
+<!--          margin: 0;-->
+<!--          padding: 0;-->
+<!--          background-color: #e3e8f3;-->
+<!--          width: 10%;-->
+<!--          height: 100%;-->
+<!--          position: fixed;-->
+<!--          overflow: auto;-->
+<!--      }-->
+<!--      li a:link, a:visited-->
+<!--      {-->
+<!--          display: block;  /* 让整体变为可点击链接区域（不只是文本），并允许指定宽度 */-->
+<!--          color: #000000;-->
+<!--          font-weight: bold;-->
+<!--          background-color: #806580;-->
+<!--          text-decoration: none;-->
+<!--          text-align: center;-->
+<!--          padding: 10px 0;-->
+<!--      }-->
+<!--      li a:hover-->
+<!--      {-->
+<!--          background-color: #800080;-->
+<!--      }-->
+<!--      li a:active-->
+<!--      {-->
+<!--          background-color: #FFFF80;-->
+<!--      }-->
+<!--    </style>-->
+
+<!--    上方是垂直，下方是水平!!!-->
+
+    <style>
+        body
+        {
+            margin:0;
+        }
+        ul
+        {
+            list-style-type: none;
+            margin: 0;
+            padding: 20px 0;
+            background-color: #e3e8f3;
+        }
+        li
+        {
+            display: inline;
+            /*float: left;  !* 使元素彼此相邻 *!*/
+        }
+        li a:link, a:visited
+        {
+            font-size: 20px;
+            color: #000000;
+            font-weight: bold;
+            background-color: #806580;
+            padding: 20px 30px;
+            text-align: center;
+            text-decoration: none;
+        }
+        li a:hover
+        {
+            background-color: #800080;
+        }
+        li a:active
+        {
+            background-color: #FFFF80;
+        }
+        li.about a:active
+        {
+            background-color: #00FF00;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+      <li><a href="#home">主页</a></li>
+      <li><a href="#news">新闻</a></li>
+      <li><a href="#contact">联系</a></li>
+      <li style="float: right" class="about"><a href="#about">关于</a></li>
+    </ul>
+</body>
+</html>
